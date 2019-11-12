@@ -1,0 +1,27 @@
+# bundle exec jekyll serve
+exclude: ["Rakefile"]
+highlighter: rouge
+
+title : "Teaching With TACC"
+author :
+  name : TACC Team
+  email : wallen@tacc.utexas.edu
+  github : TACC
+
+production_url : https://tacc.github.io/TeachingWithTACC
+markdown: kramdown
+
+JB :
+  version : 0.3.0
+  BASE_PATH : https://tacc.github.io/TeachingWithTACC
+  archive_path: nil
+  categories_path : nil
+  tags_path : nil
+  atom_path : nil
+  rss_path : nil
+  comments :
+    provider : false
+  analytics :
+    provider : false
+  sharing :
+    provider : false
