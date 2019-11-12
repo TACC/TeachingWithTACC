@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Overview"
-tagline: 
+title:
+tagline:
 ---
 
 Are you interested in using TACC resources to help teach a class? Look at the following:
@@ -30,12 +30,23 @@ TODO: Notes on how teaching with TACC can be Useful
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.4 [Sharing files with students](docs/02.sharing_files.md)
 
+### Using the portal
+
+&nbsp;&nbsp;&nbsp;&nbsp;3.1 [Setting up](docs/03.setting_up.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;3.2 [Managing data](docs/03.managing_data.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;3.3 [Deploying an app](docs/03.deploy_app.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;3.4 [Sharing an app](docs/03.share_app.md)
+
+
 ### General
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.1 [General recommendations](docs/03.general_recommendations.md)
+&nbsp;&nbsp;&nbsp;&nbsp;4.1 [General recommendations](docs/04.general_recommendations.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.2 [Helpful commands](docs/03.helpful_commands.md)
+&nbsp;&nbsp;&nbsp;&nbsp;4.2 [Helpful commands](docs/04.helpful_commands.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.3 [Reservation requests](docs/03.reservation_requests.md)
+&nbsp;&nbsp;&nbsp;&nbsp;4.3 [Reservation requests](docs/04.reservation_requests.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.4 [Getting additional help](docs/03.additional_help.md)
+&nbsp;&nbsp;&nbsp;&nbsp;4.4 [Getting additional help](docs/04.additional_help.md)
