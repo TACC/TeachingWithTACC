@@ -18,7 +18,7 @@ TODO: Notes on how teaching with TACC can be Useful
 
 &nbsp;&nbsp;&nbsp;&nbsp;1.3 [Request an allocation](docs/01.request_allocation.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;1.4 [Manage student accounts](docs/01.manage accounts.md)
+&nbsp;&nbsp;&nbsp;&nbsp;1.4 [Manage student accounts](docs/01.manage_accounts.md)
 
 ### Using the machines
 
