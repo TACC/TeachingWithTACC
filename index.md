@@ -17,31 +17,33 @@ benefits of using TACC resources for teaching include:
 <br>
 
 
-#### Setting up
+#### Getting Set Up
 
-&nbsp;&nbsp;&nbsp;&nbsp;1.1 [Choose the right resource](docs/01.choose_resource.md)
+&nbsp;&nbsp;&nbsp;&nbsp;1.1 [Create a TACC account](docs/01.create_account.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;1.2 [Create a TACC account](docs/01.create_account.md)
+&nbsp;&nbsp;&nbsp;&nbsp;1.2 [Choose the right resource](docs/01.choose_resource.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;1.3 [Request an allocation](docs/01.request_allocation.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;1.4 [Manage student accounts](docs/01.manage_accounts.md)
 
-<br>
-
-#### Using the machines
-
-&nbsp;&nbsp;&nbsp;&nbsp;2.1 [Install software](docs/02.install_software.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;2.2 [Custom module](docs/02.custom_module.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;2.3 [Data management](docs/02.data_management.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;2.4 [Sharing files with students](docs/02.sharing_files.md)
+&nbsp;&nbsp;&nbsp;&nbsp;1.5 [Deploy software for students to use](docs/01.install_software.md)
 
 <br>
 
-#### Using the portal
+#### Using the Resources
+
+&nbsp;&nbsp;&nbsp;&nbsp;2.1 [Data management](docs/02.data_management.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;2.2 [Running jobs](docs/02.running_jobs.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;2.3 [Reservation requests](docs/02.reservation_requests.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;2.4 [Helpful commands](docs/02.helpful_commands.md)
+
+<br>
+
+#### Using the Portal
 
 &nbsp;&nbsp;&nbsp;&nbsp;3.1 [Setting up](docs/03.setting_up.md)
 
@@ -52,13 +54,6 @@ benefits of using TACC resources for teaching include:
 &nbsp;&nbsp;&nbsp;&nbsp;3.4 [Sharing an app](docs/03.share_app.md)
 
 <br>
+\
 
-#### General
-
-&nbsp;&nbsp;&nbsp;&nbsp;4.1 [General recommendations](docs/04.general_recommendations.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;4.2 [Helpful commands](docs/04.helpful_commands.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;4.3 [Reservation requests](docs/04.reservation_requests.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;4.4 [Getting additional help](docs/04.additional_help.md)
+Additional help: https://portal.tacc.utexas.edu/tacc-consulting
