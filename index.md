@@ -1,18 +1,25 @@
 ---
 layout: page
-title:
+title: Using TACC Resources in Teaching a Course
 tagline:
 ---
 
-Are you interested in using TACC resources to help teach a class? Look at the following:
+This is a collection of information, scripts, and tips meant to aid educators
+who are using (or would like to use) TACC resources in teaching a course. Some
+benefits of using TACC resources for teaching include:
+
+**Scale Up:** Students can access dedicated nodes simultaneously without interfering with each other or locking up local resources.
+
+**Access Hardware:** TACC offers access to the latest CPUs, GPUs, FPGAs, cloud systems, visualization technologies, networks, storage systems, and other valuable resources.
+
+**Data Management:** Distribute, collect, and share project files with fine-grained access controls.
+
+<br>
 
 
-TODO: Notes on how teaching with TACC can be Useful
--> scale, free up local resources, share project files, access to cutting edge hardware
+#### Setting up
 
-### Setting up
-
-&nbsp;&nbsp;&nbsp;&nbsp;1.1 [Choosing the right resource](docs/01.choose_resource.md)
+&nbsp;&nbsp;&nbsp;&nbsp;1.1 [Choose the right resource](docs/01.choose_resource.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;1.2 [Create a TACC account](docs/01.create_account.md)
 
@@ -20,7 +27,9 @@ TODO: Notes on how teaching with TACC can be Useful
 
 &nbsp;&nbsp;&nbsp;&nbsp;1.4 [Manage student accounts](docs/01.manage_accounts.md)
 
-### Using the machines
+<br>
+
+#### Using the machines
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.1 [Install software](docs/02.install_software.md)
 
@@ -30,7 +39,9 @@ TODO: Notes on how teaching with TACC can be Useful
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.4 [Sharing files with students](docs/02.sharing_files.md)
 
-### Using the portal
+<br>
+
+#### Using the portal
 
 &nbsp;&nbsp;&nbsp;&nbsp;3.1 [Setting up](docs/03.setting_up.md)
 
@@ -40,8 +51,9 @@ TODO: Notes on how teaching with TACC can be Useful
 
 &nbsp;&nbsp;&nbsp;&nbsp;3.4 [Sharing an app](docs/03.share_app.md)
 
+<br>
 
-### General
+#### General
 
 &nbsp;&nbsp;&nbsp;&nbsp;4.1 [General recommendations](docs/04.general_recommendations.md)
 
