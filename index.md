@@ -54,6 +54,6 @@ benefits of using TACC resources for teaching include:
 &nbsp;&nbsp;&nbsp;&nbsp;3.4 [Sharing an app](docs/03.share_app.md)
 
 <br>
-\
+
 
 Additional help: https://portal.tacc.utexas.edu/tacc-consulting
