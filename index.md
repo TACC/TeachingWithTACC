@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Using TACC Resources in Teaching a Course
+title: Using TACC Resources in Course Curricula
 tagline:
 ---
 
