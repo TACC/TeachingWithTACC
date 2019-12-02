@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Using TACC Resources in Course Curricula
-tagline:
+title: Teaching with TACC
+tagline: A Guide for Using TACC Resources in Course Curricula
 ---
 
 This is a collection of information, scripts, and tips meant to aid educators
