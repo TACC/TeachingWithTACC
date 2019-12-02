@@ -19,15 +19,15 @@ benefits of using TACC resources for teaching include:
 
 #### Getting Set Up
 
-&nbsp;&nbsp;&nbsp;&nbsp;1.1 [Create a TACC account](docs/01.create_account.md)
+&nbsp;&nbsp;&nbsp;&nbsp;1.1 [Create a TACC Account](docs/01.create_account.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;1.2 [Choose the right resource](docs/01.choose_resource.md)
+&nbsp;&nbsp;&nbsp;&nbsp;1.2 [Choose the Right Resource](docs/01.choose_resource.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;1.3 [Request an allocation](docs/01.request_allocation.md)
+&nbsp;&nbsp;&nbsp;&nbsp;1.3 [Request an Allocation](docs/01.request_allocation.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;1.4 [Manage student accounts](docs/01.manage_accounts.md)
+&nbsp;&nbsp;&nbsp;&nbsp;1.4 [Manage Student Accounts](docs/01.manage_accounts.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;1.5 [Deploy software for students to use](docs/01.install_software.md)
+&nbsp;&nbsp;&nbsp;&nbsp;1.5 [Install Class Software](docs/01.install_software.md)
 
 <br>
 
@@ -56,4 +56,4 @@ benefits of using TACC resources for teaching include:
 <br>
 
 
-Need additional help? [Please submit a ticket here.](https://portal.tacc.utexas.edu/tacc-consulting)
+Need additional help? [Please submit a ticket here](https://portal.tacc.utexas.edu/tacc-consulting)
