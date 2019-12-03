@@ -33,11 +33,11 @@ benefits of using TACC resources for teaching include:
 
 #### Using the Resources
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.1 [Data management](docs/02.data_management.md)
+&nbsp;&nbsp;&nbsp;&nbsp;2.1 [Sharing Project Files](docs/02.sharing_files.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.2 [Running jobs](docs/02.running_jobs.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.3 [Reservation requests](docs/02.reservation_requests.md)
+&nbsp;&nbsp;&nbsp;&nbsp;2.3 [Request a Queue Reservation](docs/02.reservation_requests.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.4 [Helpful commands](docs/02.helpful_commands.md)
 
