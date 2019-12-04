@@ -42,18 +42,16 @@ benefits of using TACC resources for teaching include:
 &nbsp;&nbsp;&nbsp;&nbsp;2.4 [Helpful Commands](docs/02.helpful_commands.md)
 
 <br>
-<!---
-#### Using the Portal
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.1 [Setting up](docs/03.setting_up.md)
+[//]: # (#### Using the Portal)
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.2 [Managing data](docs/03.managing_data.md)
+[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;3.1 [Setting up](docs/03.setting_up.md))
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.3 [Deploying an app](docs/03.deploy_app.md)
+[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;3.2 [Managing data](docs/03.managing_data.md))
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.4 [Sharing an app](docs/03.share_app.md)
+[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;3.3 [Deploying an app](docs/03.deploy_app.md))
 
-<br>
---->
+[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;3.4 [Sharing an app](docs/03.share_app.md))
+
 
 Need additional help? [Please submit a ticket here](https://portal.tacc.utexas.edu/tacc-consulting)
