@@ -31,18 +31,18 @@ benefits of using TACC resources for teaching include:
 
 <br>
 
-#### Using the Resources
+#### Running the Class
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.1 [Sharing Project Files](docs/02.sharing_files.md)
+&nbsp;&nbsp;&nbsp;&nbsp;2.1 [Share Project Files](docs/02.sharing_files.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.2 [Running jobs](docs/02.running_jobs.md)
+&nbsp;&nbsp;&nbsp;&nbsp;2.2 [Submit Jobs](docs/02.running_jobs.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.3 [Request a Queue Reservation](docs/02.reservation_requests.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.4 [Helpful commands](docs/02.helpful_commands.md)
+&nbsp;&nbsp;&nbsp;&nbsp;2.4 [Helpful Commands](docs/02.helpful_commands.md)
 
 <br>
-
+<!---
 #### Using the Portal
 
 &nbsp;&nbsp;&nbsp;&nbsp;3.1 [Setting up](docs/03.setting_up.md)
@@ -54,6 +54,6 @@ benefits of using TACC resources for teaching include:
 &nbsp;&nbsp;&nbsp;&nbsp;3.4 [Sharing an app](docs/03.share_app.md)
 
 <br>
-
+--->
 
 Need additional help? [Please submit a ticket here](https://portal.tacc.utexas.edu/tacc-consulting)
