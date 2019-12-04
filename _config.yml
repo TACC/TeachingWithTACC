@@ -2,7 +2,7 @@
 exclude: ["Rakefile"]
 highlighter: rouge
 
-title : "Teaching With TACC"
+title : "Teaching with TACC"
 author :
   name : TACC Team
   email : wallen@tacc.utexas.edu
