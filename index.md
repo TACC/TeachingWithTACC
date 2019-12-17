@@ -35,9 +35,9 @@ benefits of using TACC resources for teaching include:
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.1 [Share Project Files](docs/02.sharing_files.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.2 [Submit Jobs to the Queue](docs/02.running_jobs.md)
+&nbsp;&nbsp;&nbsp;&nbsp;2.2 [Work Interactively on a Node](docs/02.work_interactively.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.3 [Work Interactively on a Node](docs/02.work_interactively.md)
+&nbsp;&nbsp;&nbsp;&nbsp;2.3 [Submit Jobs to the Queue](docs/02.running_jobs.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.4 [Request a Queue Reservation](docs/02.reservation_requests.md)
 
