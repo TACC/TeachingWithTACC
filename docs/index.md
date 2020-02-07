@@ -1,9 +1,6 @@
+# Teaching with TACC
+*A Guide for Using TACC Resources in Course Curricula*
 ---
-layout: page
-title: Teaching with TACC
-tagline: A Guide for Using TACC Resources in Course Curricula
----
-
 This is a collection of information, scripts, and tips meant to aid educators
 who are using (or would like to use) TACC resources in teaching a course. Some
 benefits of using TACC resources for teaching include:
@@ -14,34 +11,29 @@ benefits of using TACC resources for teaching include:
 
 **Data Management:** Distribute, collect, and share project files with fine-grained access controls.
 
-<br>
+## Getting Set Up
 
+&nbsp;&nbsp;&nbsp;&nbsp;1.1 [Create a TACC Account](01.create_account.md)
 
-#### Getting Set Up
+&nbsp;&nbsp;&nbsp;&nbsp;1.2 [Choose the Right Resource](01.choose_resource.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;1.1 [Create a TACC Account](docs/01.create_account.md)
+&nbsp;&nbsp;&nbsp;&nbsp;1.3 [Request an Allocation](01.request_allocation.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;1.2 [Choose the Right Resource](docs/01.choose_resource.md)
+&nbsp;&nbsp;&nbsp;&nbsp;1.4 [Manage Student Accounts](01.manage_accounts.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;1.3 [Request an Allocation](docs/01.request_allocation.md)
+&nbsp;&nbsp;&nbsp;&nbsp;1.5 [Install Class Software](01.install_software.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;1.4 [Manage Student Accounts](docs/01.manage_accounts.md)
+## Running the Class
 
-&nbsp;&nbsp;&nbsp;&nbsp;1.5 [Install Class Software](docs/01.install_software.md)
+&nbsp;&nbsp;&nbsp;&nbsp;2.1 [Share Project Files](02.sharing_files.md)
 
-<br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.2 [Work Interactively on a Node](02.work_interactively.md)
 
-#### Running the Class
+&nbsp;&nbsp;&nbsp;&nbsp;2.3 [Submit Jobs to the Queue](02.running_jobs.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.1 [Share Project Files](docs/02.sharing_files.md)
+&nbsp;&nbsp;&nbsp;&nbsp;2.4 [Request a Queue Reservation](02.reservation_requests.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.2 [Work Interactively on a Node](docs/02.work_interactively.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;2.3 [Submit Jobs to the Queue](docs/02.running_jobs.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;2.4 [Request a Queue Reservation](docs/02.reservation_requests.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;2.5 [Helpful Commands](docs/02.helpful_commands.md)
+&nbsp;&nbsp;&nbsp;&nbsp;2.5 [Helpful Commands](02.helpful_commands.md)
 
 <br>
 

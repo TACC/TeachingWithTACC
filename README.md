@@ -1,5 +1,5 @@
 # TeachingWithTACC
 
-Guide for using TACC resources in teaching a class
+A Guide for Using TACC Resources in Course Curricula
 
 https://tacc.github.io/TeachingWithTACC
