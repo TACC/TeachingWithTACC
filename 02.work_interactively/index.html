@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Work Interactively on a Node - Teaching with TACC</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Work Interactively on a Node";
+    var mkdocs_page_input_path = "02.work_interactively.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Teaching with TACC</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Getting Set Up</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../01.create_account/">Create a TACC Account</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../01.choose_resource/">Choose the Right Resource</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../01.request_allocation/">Request an Allocation</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../01.manage_accounts/">Manage Student Accounts</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../01.install_software/">Install Class Software</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Running the Class</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../02.sharing_files/">Share Project Files</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Work Interactively on a Node</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#work-interactively-on-a-node">Work Interactively on a Node</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#determine-if-you-are-on-a-login-or-compute-node">Determine if You Are on a Login or Compute Node</a></li>
+        
+            <li><a class="toctree-l4" href="#connect-to-a-compute-node">Connect to a Compute Node</a></li>
+        
+            <li><a class="toctree-l4" href="#useful-idev-options">Useful idev Options</a></li>
+        
+            <li><a class="toctree-l4" href="#connect-multiple-terminals-to-the-same-interactive-session">Connect Multiple Terminals to the Same Interactive Session</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../02.running_jobs/">Submit Jobs to the Queue</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../02.reservation_requests/">Request a Queue Reservation</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../02.helpful_commands/">Helpful Commands</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Teaching with TACC</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Running the Class &raquo;</li>
+        
+      
+    
+    <li>Work Interactively on a Node</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/TACC/TeachingWithTACC/edit/master/docs/02.work_interactively.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="work-interactively-on-a-node">Work Interactively on a Node</h1>
+<p>Logging in to one of the TACC clusters will place you on a shared <strong>login node</strong>.
+These are shared resources and users should not run applications here (including
+Python, Matlab, R, or any other code downloaded from the internet). Instead, these
+applications should be run on a <strong>compute node</strong>.</p>
+<h2 id="determine-if-you-are-on-a-login-or-compute-node">Determine if You Are on a Login or Compute Node</h2>
+<p>To determine what type of node you are logged into, use the command <strong><code>hostname</code></strong>.
+The output of <strong><code>hostname</code></strong> will either show a login node (e.g. <code>login1</code>, <code>login2</code>),
+or it will show a series of letters and numbers (e.g. <code>nid00015</code>, <code>c001-005</code>)
+indicating a compute node. The exact output will vary from cluster to cluster. By
+default, the same information is located at the beginning of the command prompt,
+as is seen in the next section.</p>
+<h2 id="connect-to-a-compute-node">Connect to a Compute Node</h2>
+<p>To launch an interactive session on a compute node, use the <strong><code>idev</code></strong> command. Below
+is an example of <strong><code>idev</code></strong> launching from a login node on Lonestar 5 with the default
+options:</p>
+<pre><code>[login]$ idev
+ -&gt; Defaults file    : ~/.idevrc
+ -&gt; System           : ls5      
+ -&gt; Queue            : development   (idev  default       )
+ -&gt; Nodes            : 1             (idev  default       )
+ -&gt; Tasks per Node   : 24            (~/.idevrc           )
+ -&gt; Time (minutes)   : 30            (idev  default       )
+ -&gt; Project          : PROJECT-NAME  (~/.idevrc           )
+
+-----------------------------------------------------------------
+          Welcome to the Lonestar 5 Supercomputer
+-----------------------------------------------------------------
+
+No reservation for this job
+--&gt; Verifying valid submit host (login1)...OK
+--&gt; Verifying valid jobname...OK
+--&gt; Enforcing max jobs per user...OK
+--&gt; Verifying availability of your home dir (/home1/01234/username)...OK
+--&gt; Verifying availability of your work dir (/work/01234/username)...OK
+--&gt; Verifying availability of your scratch dir (/scratch/01234/username)...OK
+--&gt; Verifying valid ssh keys...OK
+--&gt; Verifying access to desired queue (development)...OK
+--&gt; Verifying job request is within current queue limits...OK
+--&gt; Checking available allocation (PROJECT-NAME)...OK
+Submitted batch job 2573629
+
+ -&gt; After your idev job begins to run, a command prompt will appear,
+ -&gt; and you can begin your interactive development session.
+ -&gt; We will report the job status every 4 seconds: (PD=pending, R=running).
+
+ -&gt;job status:  PD
+ -&gt;job status:  R
+
+ -&gt; Job is now running on masternode= nid00015...OK
+ -&gt; Sleeping for 7 seconds...OK    
+ -&gt; Checking to make sure your job has initialized an env for you....OK
+ -&gt; Creating interactive terminal session (login) on master node nid00015.
+
+[nid00015]$      # note that command prompt has changed
+</code></pre>
+
+<h2 id="useful-idev-options">Useful <strong><code>idev</code></strong> Options</h2>
+<p>You can pass options to <strong><code>idev</code></strong> to control the nature of the interactive job. This
+includes number of nodes, number of MPI processes, duration of the session, and
+identity of the queue. For example:</p>
+<pre><code>[login]$ idev -N 1 -p development -m 120
+</code></pre>
+
+<p>The above command will launch a session on one node (<code>-N 1</code>) in the development
+queue (<code>-p development</code>) for a duration of 120 minutes (<code>-m 120</code>). A full list of
+<strong><code>idev</code></strong> options can be seen by issuing:</p>
+<pre><code>[login]$ idev -h
+</code></pre>
+
+<h2 id="connect-multiple-terminals-to-the-same-interactive-session">Connect Multiple Terminals to the Same Interactive Session</h2>
+<p>It may be useful to have multiple terminals connected to the same interactive
+session on the same compute node. To do this, first launch a job with idev from
+one terminal:</p>
+<p><strong>Terminal 1</strong></p>
+<pre><code>[login]$ idev
+...
+[nid00015]$
+</code></pre>
+
+<p>From the command prompt above, you can see the interactive session launched on a
+compute node with hostname <strong><code>nid00015</code></strong>. From the second terminal, type:</p>
+<p><strong>Terminal 2</strong></p>
+<pre><code>[login]$ ssh nid00015
+...
+[nid00015]$
+</code></pre>
+
+<p>Now both terminals are connected to the same compute node in the interactive
+session. When the job ends, or when the first terminal disconnects from the
+compute node, the second terminal will also be disconnected automatically.</p>
+<p><br></p>
+<hr />
+<p>Return to the <a href="..">Overview</a></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../02.running_jobs/" class="btn btn-neutral float-right" title="Submit Jobs to the Queue">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../02.sharing_files/" class="btn btn-neutral" title="Share Project Files"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/TACC/TeachingWithTACC/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../02.sharing_files/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../02.running_jobs/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
