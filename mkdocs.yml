@@ -14,4 +14,9 @@ nav:
         - Submit Jobs to the Queue: 02.running_jobs.md
         - Request a Queue Reservation: 02.reservation_requests.md
         - Helpful Commands: 02.helpful_commands.md
+    - Using the UTRC Portal:
+        - Getting Started: 03.getting_started.md
+        - Managing Data: 03.managing_data.md
+        - Accessing Data: 03.accessing_data.md
+        - Additional Features of the UTRC Portal: 03.add_features.md
 theme: readthedocs

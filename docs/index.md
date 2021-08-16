@@ -35,6 +35,16 @@ benefits of using TACC resources for teaching include:
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.5 [Helpful Commands](02.helpful_commands.md)
 
+## Using the UTRC Portal
+
+&nbsp;&nbsp;&nbsp;&nbsp;3.1 [Getting Started](03.getting_started.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;3.2 [Managing Data](03.managing_data.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;3.3 [Accessing Data](03.accessing_data.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;3.4 [Additional Features of the UTRC Portal](03.add_features.md)
+
 <br>
 
 [//]: # (#### Using the Portal)
