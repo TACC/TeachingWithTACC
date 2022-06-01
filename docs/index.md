@@ -11,7 +11,7 @@ benefits of using TACC resources for teaching include:
 
 **Data Management:** Distribute, collect, and share project files with fine-grained access controls.
 
-## Getting Set Up
+## Setting Up
 
 &nbsp;&nbsp;&nbsp;&nbsp;1.1 [Create a TACC Account](01.create_account.md)
 
@@ -37,13 +37,19 @@ benefits of using TACC resources for teaching include:
 
 ## Using the UTRC Portal
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.1 [Getting Started](03.getting_started.md)
+&nbsp;&nbsp;&nbsp;&nbsp;3.1 [Get Started](03.getting_started.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.2 [Managing Data](03.managing_data.md)
+&nbsp;&nbsp;&nbsp;&nbsp;3.2 [Manage Data](03.managing_data.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.3 [Accessing Data](03.accessing_data.md)
+&nbsp;&nbsp;&nbsp;&nbsp;3.3 [Access Data](03.accessing_data.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;3.4 [Additional Features of the UTRC Portal](03.add_features.md)
+
+## Guide for Students
+[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;4.1 [Create a TACC Account](docs/04.student_account.md))
+[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;4.2 [Analyze Data on TACC](docs/04.data_analysis.md))
+[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;4.3 [Use HPC for Final Projects](docs/04.hpc_finals.md))
+[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;4.4 [Use the UTRC Portal for Final Projects](docs/04.portal_finals.md)) 
 
 <br>
 
@@ -58,4 +64,4 @@ benefits of using TACC resources for teaching include:
 [//]: # (&nbsp;&nbsp;&nbsp;&nbsp;3.4 [Sharing an app](docs/03.share_app.md))
 
 
-Need additional help? [Please submit a ticket here](https://portal.tacc.utexas.edu/tacc-consulting)
+Need additional help? [Please submit a ticket here.](https://portal.tacc.utexas.edu/tacc-consulting/-/consult/tickets/create)
