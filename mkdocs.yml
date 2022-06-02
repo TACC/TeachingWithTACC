@@ -2,7 +2,7 @@ site_name: Teaching with TACC
 repo_url: https://github.com/TACC/TeachingWithTACC
 nav:
     - Home: index.md
-    - Getting Set Up:
+    - Setting Up:
         - Create a TACC Account: 01.create_account.md
         - Choose the Right Resource: 01.choose_resource.md
         - Request an Allocation: 01.request_allocation.md
@@ -15,8 +15,8 @@ nav:
         - Request a Queue Reservation: 02.reservation_requests.md
         - Helpful Commands: 02.helpful_commands.md
     - Using the UTRC Portal:
-        - Getting Started: 03.getting_started.md
-        - Managing Data: 03.managing_data.md
-        - Accessing Data: 03.accessing_data.md
+        - Get Started: 03.getting_started.md
+        - Manage Data: 03.managing_data.md
+        - Access Data: 03.accessing_data.md
         - Additional Features of the UTRC Portal: 03.add_features.md
 theme: readthedocs

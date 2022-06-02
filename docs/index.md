@@ -47,11 +47,12 @@ benefits of using TACC resources for teaching include:
 
 ## Guide for Students
 [//]: # (&nbsp;&nbsp;&nbsp;&nbsp;4.1 [Create a TACC Account](docs/04.student_account.md))
-[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;4.2 [Analyze Data on TACC](docs/04.data_analysis.md))
-[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;4.3 [Use HPC for Final Projects](docs/04.hpc_finals.md))
-[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;4.4 [Use the UTRC Portal for Final Projects](docs/04.portal_finals.md)) 
 
-<br>
+[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;4.2 [Analyze Data on TACC](docs/04.data_analysis.md)) 
+
+[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;4.3 [Use HPC for Final Projects](docs/04.hpc_finals.md))
+
+[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;4.4 [Use the UTRC Portal for Final Projects](docs/04.portal_finals.md)) 
 
 [//]: # (#### Using the Portal)
 
@@ -63,5 +64,6 @@ benefits of using TACC resources for teaching include:
 
 [//]: # (&nbsp;&nbsp;&nbsp;&nbsp;3.4 [Sharing an app](docs/03.share_app.md))
 
+<br>
 
 Need additional help? [Please submit a ticket here.](https://portal.tacc.utexas.edu/tacc-consulting/-/consult/tickets/create)
