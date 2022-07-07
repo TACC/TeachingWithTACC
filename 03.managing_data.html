@@ -5,11 +5,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="None">
+  
   
   
   <link rel="shortcut icon" href="img/favicon.ico">
-  <title>Teaching with TACC</title>
+  <title>Manage Data - Teaching with TACC</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="css/theme.css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Home";
-    var mkdocs_page_input_path = "index.md";
+    var mkdocs_page_name = "Manage Data";
+    var mkdocs_page_input_path = "03.managing_data.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -46,20 +46,8 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="index.html">Home</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#a-guide-for-using-tacc-resources-in-course-curricula">A Guide for Using TACC Resources in Course Curricula</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#setting-up">Setting Up</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#running-the-class">Running the Class</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#using-the-utrc-portal">Using the UTRC Portal</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#guide-for-students">Guide for Students</a>
-    </li>
-    </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="index.html">Home</a>
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Setting Up</span></p>
@@ -89,10 +77,28 @@
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Using the UTRC Portal</span></p>
-                <ul>
+                <ul class="current">
                     <li class="toctree-l1"><a class="reference internal" href="03.getting_started.html">Get Started</a>
                     </li>
-                    <li class="toctree-l1"><a class="reference internal" href="03.managing_data.html">Manage Data</a>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="03.managing_data.html">Manage Data</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#navigating-the-data-files-section-of-the-utrc-portal">Navigating the Data Files Section of the UTRC Portal</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#data-organization">Data Organization</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#my-data">My Data</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#my-projects">My Projects</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#community-data">Community Data</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#public-data">Public Data</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#google-drive">Google Drive</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="03.accessing_data.html">Access Data</a>
                     </li>
@@ -119,11 +125,15 @@
     <li><a href="index.html">Docs</a> &raquo;</li>
     
       
+        
+          <li>Using the UTRC Portal &raquo;</li>
+        
+      
     
-    <li>Home</li>
+    <li>Manage Data</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/TACC/TeachingWithTACC/edit/master/docs/index.md"
+        <a href="https://github.com/TACC/TeachingWithTACC/edit/master/docs/03.managing_data.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -135,34 +145,33 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="teaching-with-tacc">Teaching with TACC</h1>
-<h2 id="a-guide-for-using-tacc-resources-in-course-curricula"><em>A Guide for Using TACC Resources in Course Curricula</em></h2>
-<p>This is a collection of information, scripts, and tips meant to aid educators
-who are using (or would like to use) TACC resources in teaching a course. Some
-benefits of using TACC resources for teaching include:</p>
-<p><strong>Scale Up:</strong> Students can access their own dedicated nodes without interfering with each other or locking up local resources.</p>
-<p><strong>Access Hardware:</strong> TACC offers access to the latest CPUs, GPUs, FPGAs, cloud systems, visualization technologies, networks, storage systems, and other valuable resources.</p>
-<p><strong>Data Management:</strong> Distribute, collect, and share project files with fine-grained access controls.</p>
-<h2 id="setting-up">Setting Up</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;1.1 <a href="01.create_account.html">Create a TACC Account</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;1.2 <a href="01.choose_resource.html">Choose the Right Resource</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;1.3 <a href="01.request_allocation.html">Request an Allocation</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;1.4 <a href="01.manage_accounts.html">Manage Student Accounts</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;1.5 <a href="01.install_software.html">Install Class Software</a></p>
-<h2 id="running-the-class">Running the Class</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;2.1 <a href="02.sharing_files.html">Share Project Files</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;2.2 <a href="02.work_interactively.html">Work Interactively on a Node</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;2.3 <a href="02.running_jobs.html">Submit Jobs to the Queue</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;2.4 <a href="02.reservation_requests.html">Request a Queue Reservation</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;2.5 <a href="02.helpful_commands.html">Helpful Commands</a></p>
-<h2 id="using-the-utrc-portal">Using the UTRC Portal</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;3.1 <a href="03.getting_started.html">Get Started</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;3.2 <a href="03.managing_data.html">Manage Data</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;3.3 <a href="03.accessing_data.html">Access Data</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;3.4 <a href="03.add_features.html">Additional Features of the UTRC Portal</a></p>
-<h2 id="guide-for-students">Guide for Students</h2>
+                <h1 id="managing-data">Managing Data</h1>
+<h2 id="navigating-the-data-files-section-of-the-utrc-portal">Navigating the Data Files Section of the UTRC Portal</h2>
+<p>Data Files is a multi-purpose data repository that enables users to organize and personalize their data files and share them with others. Features include:</p>
+<ul>
+<li>File uploads and downloads</li>
+<li>Searching files</li>
+<li>File manipulation operations (ex. Rename, Move, Copy, Preview, Compress, Extract, Download, Move to Trash)</li>
+</ul>
+<h2 id="data-organization">Data Organization</h2>
+<p>Data is organized into several categories:</p>
+<h3 id="my-data">My Data</h3>
+<p>This is your private data workspace, only accessible to you. As a result, you have ownership and read/write permissions over these files and folders.</p>
+<h3 id="my-projects">My Projects</h3>
+<p>This is your shared workspace, where you can create project folders (using the <strong>+Add</strong> button) to be shared with other collaborators. Any user added to a specific project by the PI can access data uploaded into that specific project folder.</p>
+<blockquote>
+<p>Note: A project under My Projects is a shared workspace and is different from a project allocation through TACC’s User Portal. Any user can be a PI, Co-PI, and/or Collaborator in the UTRC Portal (this is different from the PI Eligibility Requirements required for TACC’s User Portal).  </p>
+</blockquote>
+<h3 id="community-data">Community Data</h3>
+<p>Community Data is data that is viewable by all authorized portal users.</p>
+<h3 id="public-data">Public Data</h3>
+<p>Public Data is data that is viewable by all portal users, authorized or not.</p>
+<h3 id="google-drive">Google Drive</h3>
+<p>This area contains any files stored in the user's Google Drive if they have added support for Google Drive under their user account.
+Additional third-party technologies can be integrated into portals upon request (once deemed compatible with the portal).</p>
 <p><br></p>
-<p>Need additional help? <a href="https://portal.tacc.utexas.edu/tacc-consulting/-/consult/tickets/create">Please submit a ticket here.</a></p>
+<hr />
+<p>Return to the <a href="index.html">Overview</a></p>
               
             </div>
           </div>
@@ -170,8 +179,10 @@ benefits of using TACC resources for teaching include:</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="01.create_account.html" class="btn btn-neutral float-right" title="Create a TACC Account">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="03.accessing_data.html" class="btn btn-neutral float-right" title="Access Data">Next <span class="icon icon-circle-arrow-right"></span></a>
       
+      
+        <a href="03.getting_started.html" class="btn btn-neutral" title="Get Started"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -201,8 +212,10 @@ benefits of using TACC resources for teaching include:</p>
         </span>
     
     
+      <span><a href="03.getting_started.html" style="color: #fcfcfc">&laquo; Previous</a></span>
     
-      <span><a href="01.create_account.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+      <span><a href="03.accessing_data.html" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
@@ -218,8 +231,3 @@ benefits of using TACC resources for teaching include:</p>
 
 </body>
 </html>
-
-<!--
-MkDocs version : 1.2.1
-Build Date UTC : 2022-07-07 20:41:14.523575+00:00
--->

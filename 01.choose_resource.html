@@ -5,11 +5,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="None">
+  
   
   
   <link rel="shortcut icon" href="img/favicon.ico">
-  <title>Teaching with TACC</title>
+  <title>Choose the Right Resource - Teaching with TACC</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="css/theme.css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Home";
-    var mkdocs_page_input_path = "index.md";
+    var mkdocs_page_name = "Choose the Right Resource";
+    var mkdocs_page_input_path = "01.choose_resource.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -46,27 +46,25 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="index.html">Home</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#a-guide-for-using-tacc-resources-in-course-curricula">A Guide for Using TACC Resources in Course Curricula</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#setting-up">Setting Up</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#running-the-class">Running the Class</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#using-the-utrc-portal">Using the UTRC Portal</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#guide-for-students">Guide for Students</a>
-    </li>
-    </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="index.html">Home</a>
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Setting Up</span></p>
-                <ul>
+                <ul class="current">
                     <li class="toctree-l1"><a class="reference internal" href="01.create_account.html">Create a TACC Account</a>
                     </li>
-                    <li class="toctree-l1"><a class="reference internal" href="01.choose_resource.html">Choose the Right Resource</a>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="01.choose_resource.html">Choose the Right Resource</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#compute">Compute</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gpu-visualization">GPU / Visualization</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cloud">Cloud</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gateways-and-portals">Gateways and Portals</a>
+    </li>
+    </ul>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="01.request_allocation.html">Request an Allocation</a>
                     </li>
@@ -119,11 +117,15 @@
     <li><a href="index.html">Docs</a> &raquo;</li>
     
       
+        
+          <li>Setting Up &raquo;</li>
+        
+      
     
-    <li>Home</li>
+    <li>Choose the Right Resource</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/TACC/TeachingWithTACC/edit/master/docs/index.md"
+        <a href="https://github.com/TACC/TeachingWithTACC/edit/master/docs/01.choose_resource.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -135,34 +137,57 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="teaching-with-tacc">Teaching with TACC</h1>
-<h2 id="a-guide-for-using-tacc-resources-in-course-curricula"><em>A Guide for Using TACC Resources in Course Curricula</em></h2>
-<p>This is a collection of information, scripts, and tips meant to aid educators
-who are using (or would like to use) TACC resources in teaching a course. Some
-benefits of using TACC resources for teaching include:</p>
-<p><strong>Scale Up:</strong> Students can access their own dedicated nodes without interfering with each other or locking up local resources.</p>
-<p><strong>Access Hardware:</strong> TACC offers access to the latest CPUs, GPUs, FPGAs, cloud systems, visualization technologies, networks, storage systems, and other valuable resources.</p>
-<p><strong>Data Management:</strong> Distribute, collect, and share project files with fine-grained access controls.</p>
-<h2 id="setting-up">Setting Up</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;1.1 <a href="01.create_account.html">Create a TACC Account</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;1.2 <a href="01.choose_resource.html">Choose the Right Resource</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;1.3 <a href="01.request_allocation.html">Request an Allocation</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;1.4 <a href="01.manage_accounts.html">Manage Student Accounts</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;1.5 <a href="01.install_software.html">Install Class Software</a></p>
-<h2 id="running-the-class">Running the Class</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;2.1 <a href="02.sharing_files.html">Share Project Files</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;2.2 <a href="02.work_interactively.html">Work Interactively on a Node</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;2.3 <a href="02.running_jobs.html">Submit Jobs to the Queue</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;2.4 <a href="02.reservation_requests.html">Request a Queue Reservation</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;2.5 <a href="02.helpful_commands.html">Helpful Commands</a></p>
-<h2 id="using-the-utrc-portal">Using the UTRC Portal</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;3.1 <a href="03.getting_started.html">Get Started</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;3.2 <a href="03.managing_data.html">Manage Data</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;3.3 <a href="03.accessing_data.html">Access Data</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;3.4 <a href="03.add_features.html">Additional Features of the UTRC Portal</a></p>
-<h2 id="guide-for-students">Guide for Students</h2>
+                <h1 id="choose-the-right-resource">Choose the Right Resource</h1>
+<p>TACC offers a diverse array of systems to choose from. Choosing the right system will depend on your specific needs. The list below is not a comprehensive list of all TACC systems, but a subset of the systems that are most appropriate to teaching. Please <a href="https://portal.tacc.utexas.edu/tacc-consulting">submit a ticket here</a> if you would like additional help choosing the correct system.</p>
+<h2 id="compute">Compute</h2>
+<p>TACC offers a comprehensive set of high performance computing clusters that are connected through a high speed network to a 20 PB global share work file system. All users are allocated 1 TB that is accessible from all HPC and visualization resources including compute nodes. Learn more about TACC's HPC systems:</p>
+<ul>
+<li>
+<p><a href="https://www.tacc.utexas.edu/web/website/systems/stampede2">Stampede2</a></p>
+</li>
+<li>
+<p><a href="https://portal.tacc.utexas.edu/user-guides/lonestar5">Lonestar6 Coming Soon!</a></p>
+</li>
+</ul>
+<h2 id="gpu-visualization">GPU / Visualization</h2>
+<p>TACC's GPU-based visualization systems allow researchers to conceptualize and process extremely detailed visualizations and data sets at a massive scale, and for general purpose GPU calculations. Learn more about TACC's GPU systems:</p>
+<ul>
+<li>
+<p><a href="https://www.tacc.utexas.edu/web/website/systems/maverick">Maverick2</a></p>
+</li>
+<li>
+<p><a href="https://www.tacc.utexas.edu/systems/longhorn">Longhorn</a></p>
+</li>
+<li>
+<p><a href="https://www.tacc.utexas.edu/web/website/vislab/stallion">Stallion</a></p>
+</li>
+<li>
+<p><a href="https://www.tacc.utexas.edu/web/website/vislab/lasso">Lasso</a></p>
+</li>
+</ul>
+<h2 id="cloud">Cloud</h2>
+<p>TACC's set of cloud services are designed for researchers who need large-scale resources, but prefer a virtualized, on-demand environment – allowing them to efficiently perform modeling and simulations, visualization, data analytics, and management from any location. Learn more about TACC's cloud systems:</p>
+<ul>
+<li>
+<p><a href="https://www.tacc.utexas.edu/web/website/systems/jetstream">Jetstream</a></p>
+</li>
+<li>
+<p><a href="https://www.tacc.utexas.edu/web/website/systems/chameleon">Chameleon</a></p>
+</li>
+</ul>
+<h2 id="gateways-and-portals">Gateways and Portals</h2>
+<p>Using supercomputers can be challenging for those without much computing experience. That's why the Advanced Computing Interfaces (ACI) group at TACC develops gateways and portals tools that make using TACC resources easier — enabling more scientists and engineers to make discoveries and answer important research questions.</p>
+<ul>
+<li>
+<p><a href="https://www.tacc.utexas.edu/tapis">Tapis</a></p>
+</li>
+<li>
+<p><a href="https://utrc.tacc.utexas.edu/">UTRC Portal</a></p>
+</li>
+</ul>
 <p><br></p>
-<p>Need additional help? <a href="https://portal.tacc.utexas.edu/tacc-consulting/-/consult/tickets/create">Please submit a ticket here.</a></p>
+<hr />
+<p>Return to the <a href="index.html">Overview</a></p>
               
             </div>
           </div>
@@ -170,8 +195,10 @@ benefits of using TACC resources for teaching include:</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="01.create_account.html" class="btn btn-neutral float-right" title="Create a TACC Account">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="01.request_allocation.html" class="btn btn-neutral float-right" title="Request an Allocation">Next <span class="icon icon-circle-arrow-right"></span></a>
       
+      
+        <a href="01.create_account.html" class="btn btn-neutral" title="Create a TACC Account"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -201,8 +228,10 @@ benefits of using TACC resources for teaching include:</p>
         </span>
     
     
+      <span><a href="01.create_account.html" style="color: #fcfcfc">&laquo; Previous</a></span>
     
-      <span><a href="01.create_account.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+      <span><a href="01.request_allocation.html" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
@@ -218,8 +247,3 @@ benefits of using TACC resources for teaching include:</p>
 
 </body>
 </html>
-
-<!--
-MkDocs version : 1.2.1
-Build Date UTC : 2022-07-07 20:41:14.523575+00:00
--->

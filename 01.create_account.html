@@ -5,11 +5,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="None">
+  
   
   
   <link rel="shortcut icon" href="img/favicon.ico">
-  <title>Teaching with TACC</title>
+  <title>Create a TACC Account - Teaching with TACC</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="css/theme.css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Home";
-    var mkdocs_page_input_path = "index.md";
+    var mkdocs_page_name = "Create a TACC Account";
+    var mkdocs_page_input_path = "01.create_account.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -46,25 +46,19 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="index.html">Home</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#a-guide-for-using-tacc-resources-in-course-curricula">A Guide for Using TACC Resources in Course Curricula</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#setting-up">Setting Up</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#running-the-class">Running the Class</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#using-the-utrc-portal">Using the UTRC Portal</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#guide-for-students">Guide for Students</a>
-    </li>
-    </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="index.html">Home</a>
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Setting Up</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="01.create_account.html">Create a TACC Account</a>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="01.create_account.html">Create a TACC Account</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#ut-system-users">UT System Users</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#non-ut-system-users">Non-UT System Users</a>
+    </li>
+    </ul>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="01.choose_resource.html">Choose the Right Resource</a>
                     </li>
@@ -119,11 +113,15 @@
     <li><a href="index.html">Docs</a> &raquo;</li>
     
       
+        
+          <li>Setting Up &raquo;</li>
+        
+      
     
-    <li>Home</li>
+    <li>Create a TACC Account</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/TACC/TeachingWithTACC/edit/master/docs/index.md"
+        <a href="https://github.com/TACC/TeachingWithTACC/edit/master/docs/01.create_account.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -135,34 +133,19 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="teaching-with-tacc">Teaching with TACC</h1>
-<h2 id="a-guide-for-using-tacc-resources-in-course-curricula"><em>A Guide for Using TACC Resources in Course Curricula</em></h2>
-<p>This is a collection of information, scripts, and tips meant to aid educators
-who are using (or would like to use) TACC resources in teaching a course. Some
-benefits of using TACC resources for teaching include:</p>
-<p><strong>Scale Up:</strong> Students can access their own dedicated nodes without interfering with each other or locking up local resources.</p>
-<p><strong>Access Hardware:</strong> TACC offers access to the latest CPUs, GPUs, FPGAs, cloud systems, visualization technologies, networks, storage systems, and other valuable resources.</p>
-<p><strong>Data Management:</strong> Distribute, collect, and share project files with fine-grained access controls.</p>
-<h2 id="setting-up">Setting Up</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;1.1 <a href="01.create_account.html">Create a TACC Account</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;1.2 <a href="01.choose_resource.html">Choose the Right Resource</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;1.3 <a href="01.request_allocation.html">Request an Allocation</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;1.4 <a href="01.manage_accounts.html">Manage Student Accounts</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;1.5 <a href="01.install_software.html">Install Class Software</a></p>
-<h2 id="running-the-class">Running the Class</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;2.1 <a href="02.sharing_files.html">Share Project Files</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;2.2 <a href="02.work_interactively.html">Work Interactively on a Node</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;2.3 <a href="02.running_jobs.html">Submit Jobs to the Queue</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;2.4 <a href="02.reservation_requests.html">Request a Queue Reservation</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;2.5 <a href="02.helpful_commands.html">Helpful Commands</a></p>
-<h2 id="using-the-utrc-portal">Using the UTRC Portal</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;3.1 <a href="03.getting_started.html">Get Started</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;3.2 <a href="03.managing_data.html">Manage Data</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;3.3 <a href="03.accessing_data.html">Access Data</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;3.4 <a href="03.add_features.html">Additional Features of the UTRC Portal</a></p>
-<h2 id="guide-for-students">Guide for Students</h2>
+                <h1 id="create-a-tacc-account">Create a TACC Account</h1>
+<h2 id="ut-system-users">UT System Users</h2>
+<p>TACC has a single sign-on process for users from UT System affiliated institutions. If you are a researcher in the UT System, you can create an account with your UT System Institution Credentials through <a href="https://portal.tacc.utexas.edu/utdr">this form</a>.</p>
+<p>Log in with your institution credentials and click the <strong>I need to create a TACC account</strong> button. Enter your contact information and account information in the request form. Select your PI eligibility at this time. To know if you are PI Eligible, please review our <a href="https://portal.tacc.utexas.edu/allocations-overview">eligibility requirements</a>.</p>
+<p>TACC now requires Multi-Factor Authentication (MFA). To set up MFA, you can follow <a href="https://portal.tacc.utexas.edu/tutorials/multifactor-authentication">this tutorial</a>.</p>
+<h2 id="non-ut-system-users">Non-UT System Users</h2>
+<p>To create a TACC account, redirect your browser to the <a href="https://portal.tacc.utexas.edu">TACC User Portal</a>.</p>
+<p>Click the <strong>Create a TACC Account</strong> button. Review the <strong>Request a TACC Portal Account</strong> page and click <strong>Continue to Create an Account</strong>. Accept the <strong>TACC Acceptable Use Policy</strong>. Enter your contact information and account information in the request form. Select your PI eligibility at this time. To know if you are PI Eligible, please review our <a href="https://portal.tacc.utexas.edu/allocations-overview">eligibility requirements</a>.</p>
+<p>Once your account is requested, you will receive a confirmation email within one business day with a link to verify your address. After verifying your email address, logon to the <a href="https://portal.tacc.utexas.edu">TACC User Portal</a>. For your first login, you will be prompted to review and agree to the <strong>Terms of Use</strong>.</p>
+<p>TACC now requires Multi-Factor Authentication (MFA). To set up MFA, you can follow <a href="https://portal.tacc.utexas.edu/tutorials/multifactor-authentication">this tutorial</a>.</p>
 <p><br></p>
-<p>Need additional help? <a href="https://portal.tacc.utexas.edu/tacc-consulting/-/consult/tickets/create">Please submit a ticket here.</a></p>
+<hr />
+<p>Return to the <a href="index.html">Overview</a></p>
               
             </div>
           </div>
@@ -170,8 +153,10 @@ benefits of using TACC resources for teaching include:</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="01.create_account.html" class="btn btn-neutral float-right" title="Create a TACC Account">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="01.choose_resource.html" class="btn btn-neutral float-right" title="Choose the Right Resource">Next <span class="icon icon-circle-arrow-right"></span></a>
       
+      
+        <a href="index.html" class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -201,8 +186,10 @@ benefits of using TACC resources for teaching include:</p>
         </span>
     
     
+      <span><a href="index.html" style="color: #fcfcfc">&laquo; Previous</a></span>
     
-      <span><a href="01.create_account.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+      <span><a href="01.choose_resource.html" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
@@ -218,8 +205,3 @@ benefits of using TACC resources for teaching include:</p>
 
 </body>
 </html>
-
-<!--
-MkDocs version : 1.2.1
-Build Date UTC : 2022-07-07 20:41:14.523575+00:00
--->
