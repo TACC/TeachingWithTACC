@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Share Project Files - Teaching with TACC</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Share Project Files";
+        var mkdocs_page_input_path = "02.sharing_files.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Teaching with TACC
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Setting Up</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../01.create_account/">Create a TACC Account</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../01.choose_resource/">Choose the Right Resource</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../01.request_allocation/">Request an Allocation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../01.manage_accounts/">Manage Student Accounts</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../01.install_software/">Install Class Software</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Running the Class</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Share Project Files</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#create-a-shared-directory-for-the-classroom">Create a Shared Directory for the Classroom</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#helper-script-1">Helper Script 1</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#copy-a-file-from-the-shared-directory">Copy a File from the Shared Directory</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#create-student-directories-for-handing-in-assignments">Create Student Directories for Handing in Assignments</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#helper-script-2">Helper Script 2</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../02.work_interactively/">Work Interactively on a Node</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../02.running_jobs/">Submit Jobs to the Queue</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../02.reservation_requests/">Request a Queue Reservation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../02.helpful_commands/">Helpful Commands</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Using the UTRC Portal</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../03.getting_started/">Get Started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../03.managing_data/">Manage Data</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../03.accessing_data/">Access Data</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../03.add_features/">Additional Features of the UTRC Portal</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Teaching with TACC</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Running the Class &raquo;</li>
+      <li>Share Project Files</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/TACC/TeachingWithTACC/edit/master/docs/02.sharing_files.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="share-project-files">Share Project Files</h1>
+<p>As an instructor, you may have code, data, or other project files that need to be shared publicly with your classroom. Additionally, students may have assignments, projects, or exams that need to be shared privately with the instructor. Follow this guide to create public, shared classroom workspaces as well as private, individual student directories.</p>
+<h2 id="create-a-shared-directory-for-the-classroom">Create a Shared Directory for the Classroom</h2>
+<p>This shared directory will serve as a project workspace for the classroom and is only accessible to users in the same allocation. Recall that all users on one project will share the allocations of that project and belong to the same UNIX "group". As members of the same UNIX group, users will typically share the same permissions (read, write, execute, etc.) on a set of files or directories. The UNIX group number (ex. <code>G-876543</code>) will usually correspond to the project/allocation number and can be found in the <a href="https://portal.tacc.utexas.edu/projects-and-allocations">Portal</a> by selecting <strong>View Project Detail</strong> of a project of your choice on the <strong>Projects and Allocations</strong> page.</p>
+<p>Shared directories and files should be in your work directory on Stockyard. To access <code>$STOCKYARD</code>, log in to a system of your choice. A comprehensive guide for logging in to TACC systems will not be included here. Please check the <a href="https://portal.tacc.utexas.edu/user-guides">user guides</a> for logging in to TACC machines. To create a shared directory, you can follow the commands below or <a href="#helper-script-1">navigate to our helper script</a>.</p>
+<p>Make your <code>$STOCKYARD</code> directory accessible to users in your group.</p>
+<pre><code>$ chmod g+X $STOCKYARD
+</code></pre>
+<p>Navigate to your work directory on Stockyard and create a class directory to be shared.</p>
+<pre><code>$ cd $STOCKYARD; mkdir class-directory
+</code></pre>
+<p>Your shared class directory will need to belong to the UNIX group that matches with your project allocation. To do so, set the UNIX group using the command below. For example, if the UNIX group is <code>G-876543</code>:   </p>
+<pre><code>$ chgrp -R G-876543 class-directory
+</code></pre>
+<p>Set your group ID so that new files created in the shared class directory will inherit the group ownership.</p>
+<pre><code>$ chmod g+s class-directory
+</code></pre>
+<p>Set your permissions so that the project workspace is readable and accessible to group members.</p>
+<pre><code>$ chmod g+rX class-directory
+</code></pre>
+<p>Lastly, take note of the path to your directory. Students will be able to access files in the shared directory through this path.</p>
+<pre><code>$ cd class-directory
+$ pwd
+/work/01234/username/class-directory/
+</code></pre>
+<p><br></p>
+<h3 id="helper-script-1">Helper Script 1</h3>
+<p>In your preferred text editor, copy and paste the code below and save as a shell script named <em>share_project.sh</em>. Please note that you will have to switch the UNIX group to the group that matches with your project allocation.</p>
+<pre><code>#!/bin/bash
+
+chmod g+X $STOCKYARD
+
+cd $STOCKYARD
+
+mkdir class-directory
+
+chgrp -R G-876543 class-directory
+
+chmod g+s class-directory
+
+chmod g+rX class-directory
+
+cd class-directory
+
+echo $(pwd)
+</code></pre>
+<p>Execute the shell script by entering the following commands:</p>
+<pre><code>$ chmod +x share_project.sh
+$ ./share_project.sh
+</code></pre>
+<p>Alternatively, you can <em>wget</em> the script from the command line by doing the following:</p>
+<pre><code>$ wget https://raw.githubusercontent.com/TACC/TeachingWithTACC/master/docs/scripts/share_project.sh
+# Change the UNIX group in the script to the group that matches with your project allocation
+$ chmod +x share_project.sh
+$ ./share_project.sh
+</code></pre>
+<p>Upon execution of this script, you will see output in your terminal of the path to your new class directory. Please note the path of your directory, as students will be able to access files in the shared directory through this path.</p>
+<pre><code>/work/01234/username/class-directory/
+</code></pre>
+<p><br></p>
+<h3 id="copy-a-file-from-the-shared-directory">Copy a File from the Shared Directory</h3>
+<p>To copy a file located in the shared class directory, log in to a system of your choice and enter the following commands:</p>
+<pre><code># Copy the file into your work file system
+$ cd $WORK
+# Rename the file with your TACC username
+$ cp /work/01234/username/class-directory/file1 student_username_file1
+</code></pre>
+<p><br></p>
+<h2 id="create-student-directories-for-handing-in-assignments">Create Student Directories for Handing in Assignments</h2>
+<p>Individual student directories with permissions specific to that student will protect students' homework from being seen by other users in the same allocation. We encourage you to create a subdirectory in the <em>class-directory</em> we made earlier to contain all of the student folders. To create the individual student directories, we have provided a helper script below.</p>
+<p>On a system of your choice:</p>
+<pre><code>$ cd $STOCKYARD; cd class-directory
+$ mkdir class-assignments; cd class-assignments
+</code></pre>
+<p><br></p>
+<h3 id="helper-script-2">Helper Script 2</h3>
+<p>In your preferred text editor, copy and paste the code below and save as a shell script named <em>student_dirs.sh</em>.</p>
+<pre><code>#!/bin/bash                                            
+for USERNAME in $@                                     
+do                                                     
+        if id -u &quot;$USERNAME&quot; &gt;/dev/null 2&gt;&amp;1; then     
+                echo &quot;Making a folder for $USERNAME...&quot;
+                mkdir $USERNAME                        
+                setfacl -m u:$USERNAME:rwx $USERNAME   
+        else                                           
+                echo &quot;$USERNAME does not exist&quot;        
+        fi                                             
+done                        
+unset USERNAME   
+</code></pre>
+<p>Execute the shell script, listing the usernames of students to generate individual student directories:</p>
+<pre><code>$ chmod g+rX student_dirs.sh
+$ bash student_dirs.sh username1 username2 username3 username4 username5
+</code></pre>
+<p>Alternatively, you can <em>wget</em> the script from the command line by doing the following:</p>
+<pre><code>$ wget https://raw.githubusercontent.com/TACC/TeachingWithTACC/master/docs/scripts/student_dirs.sh
+$ chmod g+rX student_dirs.sh
+# List out the usernames of students in your class
+$ bash student_dirs.sh username1 username2 username3 username4 username5
+</code></pre>
+<p><br></p>
+<hr />
+<p>Return to the <a href="../">Overview</a></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../01.install_software/" class="btn btn-neutral float-left" title="Install Class Software"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../02.work_interactively/" class="btn btn-neutral float-right" title="Work Interactively on a Node">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/TACC/TeachingWithTACC" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../01.install_software/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../02.work_interactively/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
