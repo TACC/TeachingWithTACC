@@ -7,9 +7,9 @@ benefits of using TACC resources for teaching include:
 
 **Scale Up:** Students can access their own dedicated nodes without interfering with each other or locking up local resources.
 
-**Access Hardware:** TACC offers access to the latest CPUs, GPUs, FPGAs, cloud systems, visualization technologies, networks, storage systems, and other valuable resources.
+**Access Hardware:** TACC offers access to the latest CPUs, GPUs, cloud systems, visualization technologies, networks, storage systems, and other valuable resources.
 
-**Data Management:** Distribute, collect, and share project files with fine-grained access controls.
+**Manage Data:** Distribute, collect, and share project files with fine-grained access controls.
 
 ## Setting Up
 
