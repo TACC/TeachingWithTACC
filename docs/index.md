@@ -19,7 +19,7 @@ benefits of using TACC resources for teaching include:
 
 &nbsp;&nbsp;&nbsp;&nbsp;1.3 [Request an Allocation](01.request_allocation.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;1.4 [Manage Student Access](01.manage_accounts.md)
+&nbsp;&nbsp;&nbsp;&nbsp;1.4 [Manage Student Access](01.manage_access.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;1.5 [Install Class Software](01.install_software.md)
 
