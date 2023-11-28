@@ -43,7 +43,7 @@ benefits of using TACC resources for teaching include:
 
 &nbsp;&nbsp;&nbsp;&nbsp;3.3 [Access Data](03.accessing_data.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.4 [Additional Features of the UTRC Portal](03.add_features.md)
+&nbsp;&nbsp;&nbsp;&nbsp;3.4 [Run Applications](03.run_applications.md)
 
 
 <br>
