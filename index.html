@@ -8,7 +8,7 @@
     <title>Teaching with TACC</title>
     <link rel="stylesheet" href="css/theme.css" />
     <link rel="stylesheet" href="css/theme_extra.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
@@ -17,12 +17,11 @@
         var mkdocs_page_url = null;
       </script>
     
-    <script src="js/jquery-3.6.0.min.js" defer></script>
     <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
     <![endif]-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-      <script>hljs.initHighlightingOnLoad();</script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
 </head>
 
 <body class="wy-body-for-nav" role="document">
@@ -34,7 +33,7 @@
           <a href="." class="icon icon-home"> Teaching with TACC
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
-      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -64,7 +63,7 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="01.request_allocation/">Request an Allocation</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="01.manage_accounts/">Manage Student Accounts</a>
+                  <li class="toctree-l1"><a class="" href="01.manage_accounts.md">Manage Student Accounts</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="01.install_software/">Install Class Software</a>
                   </li>
@@ -106,8 +105,8 @@
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-      <li>Home</li>
+    <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Home</li>
     <li class="wy-breadcrumbs-aside">
           <a href="https://github.com/TACC/TeachingWithTACC/edit/master/docs/index.md" class="icon icon-github"> Edit on GitHub</a>
     </li>
@@ -123,13 +122,13 @@
 who are using (or would like to use) TACC resources in teaching a course. Some
 benefits of using TACC resources for teaching include:</p>
 <p><strong>Scale Up:</strong> Students can access their own dedicated nodes without interfering with each other or locking up local resources.</p>
-<p><strong>Access Hardware:</strong> TACC offers access to the latest CPUs, GPUs, FPGAs, cloud systems, visualization technologies, networks, storage systems, and other valuable resources.</p>
-<p><strong>Data Management:</strong> Distribute, collect, and share project files with fine-grained access controls.</p>
+<p><strong>Access Hardware:</strong> TACC offers access to the latest CPUs, GPUs, cloud systems, visualization technologies, networks, storage systems, and other valuable resources.</p>
+<p><strong>Manage Data:</strong> Distribute, collect, and share project files with fine-grained access controls.</p>
 <h2 id="setting-up">Setting Up</h2>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;1.1 <a href="01.create_account/">Create a TACC Account</a></p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;1.2 <a href="01.choose_resource/">Choose the Right Resource</a></p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;1.3 <a href="01.request_allocation/">Request an Allocation</a></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;1.4 <a href="01.manage_accounts/">Manage Student Accounts</a></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;1.4 <a href="01.manage_access/">Manage Student Access</a></p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;1.5 <a href="01.install_software/">Install Class Software</a></p>
 <h2 id="running-the-class">Running the Class</h2>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;2.1 <a href="02.sharing_files/">Share Project Files</a></p>
@@ -181,20 +180,21 @@ benefits of using TACC resources for teaching include:</p>
     
   </span>
 </div>
-    <script>var base_url = '.';</script>
-    <script src="js/theme_extra.js" defer></script>
-    <script src="js/theme.js" defer></script>
-      <script src="search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
             SphinxRtdTheme.Navigation.enable(true);
-        };
+        });
     </script>
 
 </body>
 </html>
 
 <!--
-MkDocs version : 1.4.2
-Build Date UTC : 2023-08-09 21:06:41.400269+00:00
+MkDocs version : 1.5.3
+Build Date UTC : 2023-11-28 03:57:22.280425+00:00
 -->

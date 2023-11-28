@@ -8,7 +8,7 @@
     <title>Choose the Right Resource - Teaching with TACC</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
@@ -17,12 +17,11 @@
         var mkdocs_page_url = null;
       </script>
     
-    <script src="../js/jquery-3.6.0.min.js" defer></script>
     <!--[if lt IE 9]>
       <script src="../js/html5shiv.min.js"></script>
     <![endif]-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-      <script>hljs.initHighlightingOnLoad();</script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
 </head>
 
 <body class="wy-body-for-nav" role="document">
@@ -34,7 +33,7 @@
           <a href=".." class="icon icon-home"> Teaching with TACC
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -62,7 +61,7 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../01.request_allocation/">Request an Allocation</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../01.manage_accounts/">Manage Student Accounts</a>
+                  <li class="toctree-l1"><a class="" href="../01.manage_accounts.md">Manage Student Accounts</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../01.install_software/">Install Class Software</a>
                   </li>
@@ -104,9 +103,9 @@
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-          <li>Setting Up &raquo;</li>
-      <li>Choose the Right Resource</li>
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Setting Up</li>
+      <li class="breadcrumb-item active">Choose the Right Resource</li>
     <li class="wy-breadcrumbs-aside">
           <a href="https://github.com/TACC/TeachingWithTACC/edit/master/docs/01.choose_resource.md" class="icon icon-github"> Edit on GitHub</a>
     </li>
@@ -117,9 +116,9 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="choose-the-right-resource">Choose the Right Resource</h1>
-<p>TACC offers a diverse array of systems to choose from. Choosing the right system will depend on your specific needs. The list below is not a comprehensive list of all TACC systems, but a subset of the systems that are most appropriate to teaching. Please <a href="https://portal.tacc.utexas.edu/tacc-consulting">submit a ticket here</a> if you would like additional help choosing the correct system.</p>
+<p>TACC offers a diverse array of systems to choose from. Choosing the right system will depend on your specific needs. The list below is not a comprehensive list of all TACC systems, but a subset of the systems that are most appropriate to teaching. Please <a href="https://tacc.utexas.edu/about/help/">submit a ticket here</a> if you would like additional help choosing the correct system.</p>
 <h2 id="compute">Compute</h2>
-<p>TACC offers a comprehensive set of high performance computing clusters that are connected through a high speed network to a 20 PB global share work file system. All users are allocated 1 TB that is accessible from all HPC and visualization resources including compute nodes. Learn more about TACC's HPC systems:</p>
+<p>TACC offers a series of high performance computing clusters that are connected through a high speed network to a 20 PB global share work file system. All users are allocated 1 TB that is accessible from all HPC and visualization resources including compute nodes. Learn more about TACC's HPC systems:</p>
 <ul>
 <li>
 <p><a href="https://www.tacc.utexas.edu/systems/stampede2/">Stampede2</a></p>
@@ -128,26 +127,26 @@
 <p><a href="https://www.tacc.utexas.edu/systems/lonestar6/">Lonestar6</a></p>
 </li>
 <li>
-<p><a href="https://frontera-portal.tacc.utexas.edu/">Frontera</a></p>
+<p><a href="https://www.tacc.utexas.edu/systems/frontera/">Frontera</a></p>
 </li>
 </ul>
 <h2 id="gpu-visualization">GPU / Visualization</h2>
-<p>TACC's GPU-based visualization systems allow researchers to conceptualize and process extremely detailed visualizations and data sets at a massive scale, and for general purpose GPU calculations. Learn more about TACC's GPU systems:</p>
+<p>TACC's GPU-based systems are ideal for AI/ML/DL applications, allow researchers to perform general purpose GPU calculations, and can be used to conceptualize and process extremely detailed visualizations and data sets at a massive scale. Learn more about TACC's GPU systems:</p>
 <ul>
 <li>
 <p><a href="https://www.tacc.utexas.edu/systems/lonestar6/">Lonestar6</a></p>
 </li>
 <li>
-<p><a href="https://docs.tacc.utexas.edu/hpc/stallion/">Stallion</a></p>
+<p><a href="https://www.tacc.utexas.edu/systems/frontera/">Frontera</a></p>
 </li>
 <li>
-<p><a href="https://www.tacc.utexas.edu/systems/lasso/">Lasso</a></p>
-</li>
-<li>
-<p><a href="https://www.tacc.utexas.edu/systems/bronco/">Bronco</a></p>
+<p><a href="https://www.tacc.utexas.edu/systems/stallion/">Stallion</a></p>
 </li>
 <li>
 <p><a href="https://www.tacc.utexas.edu/systems/rattler/">Rattler</a></p>
+</li>
+<li>
+<p><a href="https://www.tacc.utexas.edu/systems/lasso/">Lasso</a></p>
 </li>
 </ul>
 <h2 id="cloud">Cloud</h2>
@@ -164,13 +163,13 @@
 <p>Using supercomputers can be challenging for those without much computing experience. That's why the Advanced Computing Interfaces (ACI) group at TACC develops gateways and portals tools that make using TACC resources easier — enabling more scientists and engineers to make discoveries and answer important research questions.</p>
 <ul>
 <li>
-<p><a href="https://tapis-project.org">Tapis</a></p>
+<p><a href="https://vis.tacc.utexas.edu/">TACC Analysis Portal</a></p>
 </li>
 <li>
 <p><a href="https://utrc.tacc.utexas.edu/">UTRC Portal</a></p>
 </li>
 <li>
-<p><a href="https://vis.tacc.utexas.edu/">Vis Portal</a></p>
+<p><a href="https://tapis-project.org/">Tapis</a></p>
 </li>
 </ul>
 <p><br></p>
@@ -215,14 +214,15 @@
     
   </span>
 </div>
-    <script>var base_url = '..';</script>
-    <script src="../js/theme_extra.js" defer></script>
-    <script src="../js/theme.js" defer></script>
-      <script src="../search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
             SphinxRtdTheme.Navigation.enable(true);
-        };
+        });
     </script>
 
 </body>
