@@ -6,4 +6,4 @@ https://tacc.github.io/TeachingWithTACC/
 
 
 
-( Edit guides in the ``docs`` directory, then do ``mkdocs gh-pages`` )
+( Edit guides in the ``docs`` directory, then do ``mkdocs gh-deploy`` )
