@@ -62,15 +62,13 @@
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#create-a-shared-directory-for-the-classroom">Create a Shared Directory for the Classroom</a>
         <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#helper-script-1">Helper Script 1</a>
-    </li>
     <li class="toctree-l3"><a class="reference internal" href="#copy-a-file-from-the-shared-directory">Copy a File from the Shared Directory</a>
     </li>
         </ul>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#create-student-directories-for-handing-in-assignments">Create Student Directories for Handing in Assignments</a>
+    <li class="toctree-l2"><a class="reference internal" href="#create-student-directories-for-turning-in-assignments">Create Student Directories for Turning in Assignments</a>
         <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#helper-script-2">Helper Script 2</a>
+    <li class="toctree-l3"><a class="reference internal" href="#helper-script">Helper Script</a>
     </li>
         </ul>
     </li>
@@ -93,7 +91,7 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../03.accessing_data/">Access Data</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../03.add_features/">Additional Features of the UTRC Portal</a>
+                  <li class="toctree-l1"><a class="" href="../03.add_features.md">Additional Features of the UTRC Portal</a>
                   </li>
               </ul>
       </div>
@@ -124,80 +122,49 @@
                 <h1 id="share-project-files">Share Project Files</h1>
 <p>As an instructor, you may have code, data, or other project files that need to be shared publicly with your classroom. Additionally, students may have assignments, projects, or exams that need to be shared privately with the instructor. Follow this guide to create public, shared classroom workspaces as well as private, individual student directories.</p>
 <h2 id="create-a-shared-directory-for-the-classroom">Create a Shared Directory for the Classroom</h2>
-<p>This shared directory will serve as a project workspace for the classroom and is only accessible to users in the same allocation. Recall that all users on one project will share the allocations of that project and belong to the same UNIX "group". As members of the same UNIX group, users will typically share the same permissions (read, write, execute, etc.) on a set of files or directories. The UNIX group number (ex. <code>G-876543</code>) will usually correspond to the project/allocation number and can be found in the <a href="https://portal.tacc.utexas.edu/projects-and-allocations">Portal</a> by selecting <strong>View Project Detail</strong> of a project of your choice on the <strong>Projects and Allocations</strong> page.</p>
-<p>Shared directories and files should be in your work directory on Stockyard. To access <code>$STOCKYARD</code>, log in to a system of your choice. A comprehensive guide for logging in to TACC systems will not be included here. Please check the <a href="https://portal.tacc.utexas.edu/user-guides">user guides</a> for logging in to TACC machines. To create a shared directory, you can follow the commands below or <a href="#helper-script-1">navigate to our helper script</a>.</p>
-<p>Make your <code>$STOCKYARD</code> directory accessible to users in your group.</p>
-<pre><code>$ chmod g+X $STOCKYARD
-</code></pre>
-<p>Navigate to your work directory on Stockyard and create a class directory to be shared.</p>
-<pre><code>$ cd $STOCKYARD; mkdir class-directory
-</code></pre>
-<p>Your shared class directory will need to belong to the UNIX group that matches with your project allocation. To do so, set the UNIX group using the command below. For example, if the UNIX group is <code>G-876543</code>:   </p>
-<pre><code>$ chgrp -R G-876543 class-directory
-</code></pre>
-<p>Set your group ID so that new files created in the shared class directory will inherit the group ownership.</p>
-<pre><code>$ chmod g+s class-directory
-</code></pre>
-<p>Set your permissions so that the project workspace is readable and accessible to group members.</p>
-<pre><code>$ chmod g+rX class-directory
-</code></pre>
-<p>Lastly, take note of the path to your directory. Students will be able to access files in the shared directory through this path.</p>
-<pre><code>$ cd class-directory
+<p>This shared directory will serve as a project workspace for the classroom and is only accessible to users in the same allocation. Recall that all users on one project will share the allocations of that project and belong to the same UNIX "group". As members of the same UNIX group, users will typically share the same permissions (read, write, execute, etc.) on a set of files or directories. The UNIX group number (ex. <code>G-876543</code>) will usually correspond to the project/allocation number and can be found in the <a href="https://tacc.utexas.edu/portal/projects">Portal</a> by selecting <strong>Projects &amp; Allocations</strong> then <strong>Active Projects</strong>.</p>
+<p>Shared directories and files should be on the work file system. A good place to do this is at the root of your work directory - called <code>$STOCKYARD</code>. To access the filesystem, log in to the HPC cluster for your allocation. Please check the <a href="https://docs.tacc.utexas.edu/">user guides</a> for instructions on logging in to TACC machines. To create a shared directory, follow the commands below.</p>
+<pre><code># Make your STOCKYARD directory accessible to users in your group.
+$ chmod g+X $STOCKYARD
+
+# Navigate to that directory and create a class directory to be shared.
+$ cd $STOCKYARD; mkdir class-directory
+
+# Your shared class directory will need to belong to the UNIX group that
+# matches your project allocation. For example, if the group is `G-876543`:   
+$ chgrp -R G-876543 class-directory
+
+# Set your group ID so that new files created in the shared class directory
+# will inherit the group ownership.
+$ chmod g+s class-directory
+
+# Set permissions so that the project workspace is readable and accessible
+# to group members.
+$ chmod g+rX class-directory
+
+# Lastly, take note of the path to your directory. Students will be able
+# to access files in the shared directory through this path.
+$ cd class-directory
 $ pwd
 /work/01234/username/class-directory/
-</code></pre>
-<p><br></p>
-<h3 id="helper-script-1">Helper Script 1</h3>
-<p>In your preferred text editor, copy and paste the code below and save as a shell script named <em>share_project.sh</em>. Please note that you will have to switch the UNIX group to the group that matches with your project allocation.</p>
-<pre><code>#!/bin/bash
-
-chmod g+X $STOCKYARD
-
-cd $STOCKYARD
-
-mkdir class-directory
-
-chgrp -R G-876543 class-directory
-
-chmod g+s class-directory
-
-chmod g+rX class-directory
-
-cd class-directory
-
-echo $(pwd)
-</code></pre>
-<p>Execute the shell script by entering the following commands:</p>
-<pre><code>$ chmod +x share_project.sh
-$ ./share_project.sh
-</code></pre>
-<p>Alternatively, you can <em>wget</em> the script from the command line by doing the following:</p>
-<pre><code>$ wget https://raw.githubusercontent.com/TACC/TeachingWithTACC/master/docs/scripts/share_project.sh
-# Change the UNIX group in the script to the group that matches with your project allocation
-$ chmod +x share_project.sh
-$ ./share_project.sh
-</code></pre>
-<p>Upon execution of this script, you will see output in your terminal of the path to your new class directory. Please note the path of your directory, as students will be able to access files in the shared directory through this path.</p>
-<pre><code>/work/01234/username/class-directory/
 </code></pre>
 <p><br></p>
 <h3 id="copy-a-file-from-the-shared-directory">Copy a File from the Shared Directory</h3>
 <p>To copy a file located in the shared class directory, log in to a system of your choice and enter the following commands:</p>
 <pre><code># Copy the file into your work file system
 $ cd $WORK
-# Rename the file with your TACC username
-$ cp /work/01234/username/class-directory/file1 student_username_file1
+$ cp /work/01234/username/class-directory/file1 .
 </code></pre>
 <p><br></p>
-<h2 id="create-student-directories-for-handing-in-assignments">Create Student Directories for Handing in Assignments</h2>
-<p>Individual student directories with permissions specific to that student will protect students' homework from being seen by other users in the same allocation. We encourage you to create a subdirectory in the <em>class-directory</em> we made earlier to contain all of the student folders. To create the individual student directories, we have provided a helper script below.</p>
+<h2 id="create-student-directories-for-turning-in-assignments">Create Student Directories for Turning in Assignments</h2>
+<p>Individual student directories with permissions specific to that student will protect students' homework from being seen by other users in the same allocation. We encourage you to create a subdirectory in the <code>class-directory</code> we made earlier to contain all of the student folders. To create the individual student directories, we have provided a script below.</p>
 <p>On a system of your choice:</p>
 <pre><code>$ cd $STOCKYARD; cd class-directory
 $ mkdir class-assignments; cd class-assignments
 </code></pre>
 <p><br></p>
-<h3 id="helper-script-2">Helper Script 2</h3>
-<p>In your preferred text editor, copy and paste the code below and save as a shell script named <em>student_dirs.sh</em>.</p>
+<h3 id="helper-script">Helper Script</h3>
+<p>In your preferred text editor, copy and paste the code below and save as a shell script named <code>student_dirs.sh</code>.</p>
 <pre><code>#!/bin/bash                                            
 for USERNAME in $@                                     
 do                                                     
@@ -211,7 +178,7 @@ do
 done                        
 unset USERNAME   
 </code></pre>
-<p>Execute the shell script, listing the usernames of students to generate individual student directories:</p>
+<p>Execute the shell script, listing the usernames of students on the command line to generate individual student directories:</p>
 <pre><code>$ chmod g+rX student_dirs.sh
 $ bash student_dirs.sh username1 username2 username3 username4 username5
 </code></pre>
