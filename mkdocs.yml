@@ -6,7 +6,7 @@ nav:
         - Create a TACC Account: 01.create_account.md
         - Choose the Right Resource: 01.choose_resource.md
         - Request an Allocation: 01.request_allocation.md
-        - Manage Student Accounts: 01.manage_accounts.md
+        - Manage Student Access: 01.manage_access.md
         - Install Class Software: 01.install_software.md
     - Running the Class:
         - Share Project Files: 02.sharing_files.md
@@ -18,5 +18,5 @@ nav:
         - Get Started: 03.getting_started.md
         - Manage Data: 03.managing_data.md
         - Access Data: 03.accessing_data.md
-        - Additional Features of the UTRC Portal: 03.add_features.md
+        - Run Applications: 03.run_applications.md
 theme: readthedocs
